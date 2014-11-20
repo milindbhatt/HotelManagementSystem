@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<title>Show data</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
+<div style="background-color:red;background-image:url(bgheader.jpg);color:#F3E8E8">
+<h1><CENTER>WELCOME ADMIN</center>
+
+</h1>
+
+</div>
+
+<br>
+<div class="page-wrap">
+<center>
+ <h1>SEARCH EMPLOYEES</h1>
+ <form action="selectemp.php" method="post">
+By First name  &emsp;&emsp; <input type="text" name="Firstname"><br>
+By Last name  &emsp;&emsp; <input type="text" name="Lastname"><br>
+ Jobtype  &emsp;&emsp; <select name="Jobtype">
+					 	<option value=""></option>
+                        <option value="ft">Full time</option>
+						<option value="pt">Part time</option>
+ 						</select>
+<br>
+ Availaible week days  &emsp;&emsp; <select name="AvailaibleWeek">
+					 					 <option value=""></option>
+                                         
+                                         <option value="Monday-Wednesday">Monday-Wednesday</option>
+                                         <option value="Wednesday-Sunday">Wednesday-Sunday</option>
+                                         <option value="Anyday">Anyday</option>
+                                         </select>
+                                         
+                                         <br>
+
+ <input type="submit">
+ </form>
+  <form action="selectempall.php" method="post">
+ <input type="submit" VALUE="SHOW ALL">
+ 
+  </form>
+ 
+      </center>
+</div>
+
+<footer class="site-footer">
+  I'm the Sticky Footer.
+</footer>
+</body>
+</html>

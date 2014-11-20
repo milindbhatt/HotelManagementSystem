@@ -1,0 +1,82 @@
+//Stylesheet by Milind Bhatt
+
+
+ 
+.r1
+{
+width:100%;	
+
+}
+
+
+.ul1
+{
+	
+	
+	
+}
+
+.td1
+{
+	border-right:groove;
+	border-color:#BAB9B9;
+	
+}
+
+.li1
+{
+	font-size:24px;	
+	list-style-type:square;
+}
+
+
+
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+	* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -102px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 102px; 
+}
+.site-footer {
+  background: orange;
+}
